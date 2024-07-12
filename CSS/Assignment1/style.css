@@ -1,0 +1,33 @@
+.d1{
+    background-color: white;
+    display:inline-block;
+    width: 30%;
+    height:47%;
+    border: 1px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#d2{
+    background-color:rgb(225, 21, 120);
+    color:white;
+}
+
+.b1{
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    width:48%;
+    height:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:30px;
+
+}
+.b2 {
+    background-color:white;
+    color: rgb(225, 21, 120);
+    border-radius: 20px; 
+    width: 48%;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
