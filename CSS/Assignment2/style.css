@@ -1,0 +1,17 @@
+.w{
+    background-color: rgb(245, 249, 245);
+
+}
+.g{
+    background-color:green;
+
+}
+.text {
+    font-size: 32px;
+    font-weight: bold;
+    background-image: url("images/image.png"); 
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
