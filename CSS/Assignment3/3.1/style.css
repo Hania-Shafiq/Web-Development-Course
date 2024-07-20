@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: Optima, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    color: rgb(64, 61, 61);
+    line-height: 2px;
+}
+
+.logo h1 {
+    font-weight: 300px;
+}
+
+img{
+    width:28%;
+    height:200px;
+}
+
+a{
+    margin:0px 30px;
+}
+.whole{
+    text-align: center;
+    border:1px solid rgb(64, 61, 61);
+    margin:90px;
+}
+.bold-hr {
+    border: 0;
+    height: 2px; /* Adjust thickness as needed */
+    background-color: black;
+    width: 60%; /* Adjust width as needed */
+}
+
+.normal-hr {
+    border: 0;
+    height: 1px;
+    background-color: grey;
+    width: 60%; /* Adjust width as needed */
+}
