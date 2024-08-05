@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+img-container{
+    position:relative;
+}
+.header ul li{
+    display:inline-block;
+    padding:18px;
+}
+.header ul {
+    position:absolute;
+    top:20px;
+    right:100px;
+    list-style-type:none;
+}
+.header ul li:hover{
+    color:rgba(0, 128, 0, 0.845);
+    cursor: pointer;
+
+}
+
+main{
+    position:absolute;
+    top:150px;
+    right:400px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin:10px;
+}
+button{
+    padding:15px;
+    border-radius: 30px;
+    border-color: rgba(0, 128, 0, 0.845);
+}
+.b2{
+    padding:15px 20px;
+}
+button:hover{
+    cursor:pointer;
+}
