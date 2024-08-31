@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="wd">Weather Dashboard</h1>
+    </header>
+    <main class="main">
+        <div class="left">
+            <label for="city">Enter a City Name</label>
+            <br>
+            <input type="text" id="city" placeholder="E.g.,Pakistan, London, Tokyo">
+            <br>
+            <button id="b1" type="submit">Search</button>
+            <p>or</p>
+            <button id="b2">Use Current Location</button>
+        </div>
+        <div class="right"> 
+            <div id="weather-display">
+                <div>
+                <p>LONDON 2023/16/19<br>
+                    Temperature:35<sup>o</sup>C<br>
+                    Wind: 4.31 M/S
+                    Humidity: 76%
+                </p>
+            </div>
+                <div>
+                <img id="clouds" src="images/rainy-s.png" alt="pichere">
+            </div>
+            </div>
+            <br>
+            <h3>4-Day Forecast</h3>
+            <div class="fdf"></div>
+            <div class="fdf"></div>
+            <div class="fdf"></div>
+            <div class="fdf"></div>            
+        </div>
+    </main>
+
+</body>
+</html>
